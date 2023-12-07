@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Orders from "./Components/Orders";
 
 function App() {
+  // console.log("App rendered");
   return (
-    <div>
-      
-    </div>
+    <Fragment>
+      <Orders/>
+    </Fragment>
   );
 }
 
